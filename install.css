@@ -1,0 +1,28 @@
+#install {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px); /* Изменено на 250px */
+    grid-template-rows: repeat(2, 150px); /* Изменено на 250px */
+    gap: 10px;
+}
+
+.image-container a {
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-container a:hover img {
+    transform: scale(1.1);
+}

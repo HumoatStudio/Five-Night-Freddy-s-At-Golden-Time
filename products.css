@@ -1,0 +1,39 @@
+body {
+    background-image: url('Png/register.png'); /* Замените 'your_image.jpg' на путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+}
+
+#products {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff; /* Установка белого фона для таблицы */
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}

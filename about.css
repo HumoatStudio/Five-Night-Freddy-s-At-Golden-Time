@@ -1,0 +1,56 @@
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стили для кнопки "Стать Beta-тестировщиком" */
+.beta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF4500; /* Оранжевый цвет */
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.beta-button:hover {
+    background-color: #FF6347; /* Светло-оранжевый цвет при наведении */
+}
+
+/* Стили для кнопок социальных сетей */
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Цвета кнопок для каждой социальной сети */
+.youtube {
+    background-color: #FF0000; /* Красный цвет */
+}
+
+.tiktok {
+    background-color: #000000; /* Черный цвет */
+}
+
+.telegram {
+    background-color: #0088cc; /* Синий цвет */
+}
+
+.vk {
+    background-color: #45668e; /* Серо-синий цвет */
+}
+
+.instagram {
+    background-color: #e4405f; /* Розовый цвет */
+}
+
+.social-links a:hover {
+    filter: brightness(0.8); /* Уменьшение яркости кнопок при наведении */
+}
